@@ -60,10 +60,10 @@ if(userBd !== 0 || userCity !== null || userSport !== null){
     } else if(userSport == null){
         alert(`Тобі ${userAge} \n${userCity}`);
     } else{
-        alert(`${userBd} \n${userCity} \n${userSport}`);
+        alert(` Тобі ${userAge} \n${userCity} \n${userSport}`);
     }
 } else if(userBd !== 0 && userCity !== null && userSport !== null){
-    alert(`Тобі ${userBd} \n${userCity} \n${userSport}`);
+    alert(`Тобі ${userAge} \n${userCity} \n${userSport}`);
 }
 
 
