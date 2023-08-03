@@ -1,7 +1,9 @@
 let str = ``;
 
-for(let i = 10; i <= 20; i++){
-    if(i == 20){
+let lastNumber = 20;
+
+for(let i = 10; i <= lastNumber; i++){
+    if(i === lastNumber){
         str += `${i}`;
     } else{
         str += `${i}, `;
