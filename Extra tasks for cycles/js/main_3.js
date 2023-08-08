@@ -4,10 +4,9 @@ let isSimple;
 
 for(let i = 2; i <= number; i++){
 
-    if(number == i){
+    if(number == i || number % i !== 0) {
         isSimple = `Простое число`; 
-    } else if(number % i !== 0) {
-        isSimple = `Простое число`; 
+        break;
     } else {
         isSimple = `Не простое число`;
         break;
