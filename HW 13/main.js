@@ -1,6 +1,6 @@
 
-let num = prompt("Provide a number:");
-let degree = prompt("Provide a degree:");
+let num = +prompt("Provide a number:");
+let degree = +prompt("Provide a degree:");
 
 function pow(num, degree) {
     if (degree > 1) {
