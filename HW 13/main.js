@@ -1,3 +1,7 @@
+
+let num = prompt("Provide a number:");
+let degree = prompt("Provide a degree:");
+
 function pow(num, degree) {
     if (degree > 1) {
         return num * pow(num, degree - 1);
@@ -5,4 +9,4 @@ function pow(num, degree) {
     return num;
 }
 
-console.log(pow(2, 3));
+console.log(pow(num, degree));
